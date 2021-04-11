@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
 *{
     box-sizing: border-box;
 }
@@ -5,8 +8,78 @@
 html, body{
     min-height: 100vh;
     margin: 0;
+    background-color: #F5F5F5;
 }
 
 img{
     max-width: 100%; 
 }
+
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+
+header{
+    text-align: center;
+    margin: 5px auto;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #6F8695;
+}
+
+.copy {
+	grid-column: 1;
+	text-align: right;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color:  #6F8695;
+/*	padding-right: 15px;*/
+}
+
+.credits {
+	grid-column: 2;
+}
+
+main{
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+footer {
+    font-family: 'Playfair Display', serif;
+	display: grid;
+	grid-template-columns: repeat(300px, 300px);
+    justify-content: center;
+	grid-gap: 15px;
+	background-color: #6F8695;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -18,10 +18,31 @@ function setup(){
     ctracker.start(vidcapture.elt);
     // just for testing
     drawcanvas = document.getElementById('defaultCanvas0');
+
+//Reference Code:     
+    
+    createCanvas(900, 500);
+    // hue, saturation, and brightness
+    colorMode(HSB, 255);
+    // slider has a range between 0 and 255 with a starting value of 127
+//    slider = createSlider(0, 255, 127);
+    
     
 }
 
 function draw(){
+    
+// Reference code here
+        background(127);
+        strokeWeight(2);
+    
+    // Set the hue according to the slider
+        stroke(slider.value(), 255, 255);
+        fill(slider.value(), 255, 255, 127);
+        ellipse(360, 200, 200, 200);
+//
+    
+    
     
     //background(255,10);
     translate(vidcapture.width, 0);
@@ -57,6 +78,7 @@ function draw(){
         background(r, 255, b)
         tint(255, 126)
         image(vidcapture, 0, 0)
+        
     }
     
     
