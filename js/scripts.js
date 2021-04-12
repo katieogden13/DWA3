@@ -21,7 +21,7 @@ function setup(){
 
 //Reference Code:     
     
-    createCanvas(900, 400);
+    createCanvas(1200, 400);
     // hue, saturation, and brightness
     colorMode(HSB, 255);
 //    background('#6F8695');
@@ -67,7 +67,7 @@ function draw(){
         
         
         
-        var r = map(positions[7][0], 0, width, 0, 255)
+        var r = map(positions[7][0], 0, width, 255, 0)
         var b = map(positions[7][1], 0, height, 0, 255)
         
         fill(r, 255, b);
