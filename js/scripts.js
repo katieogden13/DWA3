@@ -64,7 +64,7 @@ function draw(){
         
         fill(r, 255, b);
         ellipse(360, 200, 200, 200);
-        tint(255, 126)
+//        tint(255, 126)
         //VIDEO FEED 
 //        image(vidcapture, 0, 0)
         

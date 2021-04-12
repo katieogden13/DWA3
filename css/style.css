@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-	color: #6F8695;
+	color: azure;
 }
 
 .copy {
@@ -58,8 +58,8 @@ a:hover {
 main{
     display: grid;
     grid-template-columns: 1fr;
-    padding-left: 170px;
-    padding-right: 170px;
+    padding-left: 100px;
+    padding-right: 120px;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: darkgrey;
