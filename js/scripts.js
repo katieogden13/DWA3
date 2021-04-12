@@ -21,7 +21,7 @@ function setup(){
 
 //Reference Code:     
     
-    createCanvas(900, 500);
+    createCanvas(900, 400);
     // hue, saturation, and brightness
     colorMode(HSB, 255);
 //    background('#6F8695');
@@ -31,7 +31,7 @@ function setup(){
 function draw(){
     
 // Reference code here
-    strokeWeight(2);
+    strokeWeight(1);
     
     translate(vidcapture.width, 0);
     scale (-1, 1);
@@ -64,6 +64,16 @@ function draw(){
         
         fill(r, 255, b);
         ellipse(360, 200, 200, 200);
+        
+        
+        
+        var r = map(positions[7][0], 0, width, 0, 255)
+        var b = map(positions[7][1], 0, height, 0, 255)
+        
+        fill(r, 255, b);
+        ellipse(150, 200, 200, 200);
+        
+        
 //        tint(255, 126)
         //VIDEO FEED 
 //        image(vidcapture, 0, 0)
